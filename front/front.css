@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(230,230,230);
+}
+
+
+
+.main1{
+    border: 1px solid ;
+    width: 1000px;
+    /* height: 500px; */
+    max-height: 500px;
+    margin: auto;
+    overflow: scroll;
+    margin-top: 50px;
+    border: 1px solid green;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.child{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.child1{
+    margin-top: 20px;
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.ipt1{
+    width: 80%;
+    padding: 10px;
+    margin-left: 50px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+.ipt2{
+    width: 80px;
+    border: 1px solid green;
+    border-left: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: green;
+}
+
+
+
+.child2{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    border: 1px solid blue;
+}
+
+.ch21{
+    margin-left: 50px;
+    border: 1px solid red;
+    width: 80%;
+    padding: 10px;
+}
+
+.ch22{
+    display: flex;
+    width: 80px;
+    align-items: center;
+    border: 1px solid red;
+    background-color: transparent;
+    width: 10%;
+}
+
+.ch22>button{
+    display: block;
+    margin-left: 5px;
+    border: 1px solid grey;
+}
+.div1{
+    margin-left: 50px;
+    border: 1px solid red;
+    width: 80%;
+    padding: 10px;
+}
+
+.ch23{
+    margin-left: 50px;
+    border: 1px solid red;
+    width: 80%;
+    padding: 10px;
+    background-color: azure;
+}
+
+.child3{
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.ipt3{
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: transparent;
+    color: green;
+}
+
+.child4{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 1000px;
+    top:10px;
+
+    /* border: 1px solid red; */
+}
+
+
+.child41{
+    width: 80%;
+    border: none;
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 5px;
+}
+.child42{
+    width: 10%;
+    background-color: transparent;
+    border: none;
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 5px;
+}
